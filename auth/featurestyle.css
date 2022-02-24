@@ -1,0 +1,284 @@
+html, body{
+	background-image:url(bg.png);
+	color: #555;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	
+	text-rendering: optimizeLegibility;
+}
+
+body{
+	height: 100vh;
+	
+
+}
+
+h1{
+    color: white;
+    background-color:blue;
+    text-align:center;
+}
+
+h3{
+    color:black;
+}
+
+.logo{
+	height:100px;
+	width: auto;
+	float: left;
+	margin-top: 30px;
+}
+
+
+
+.point1{
+	position:relative;
+	width:600px;
+	height: 200px;
+	margin-left:100px;
+	margin-right: 600px;
+}
+.point1__img{
+	display:block;
+	width: 100%;
+	height:100%;
+}
+
+.point1__overlay{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity:0;
+	transition: opacity 0.25s;
+}
+.point1__overlay > *{
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+.point1__overlay:hover{
+	
+	opacity:1;
+}
+.point1__overlay:hover > *{
+	transform: translateY(0);
+}
+
+.point1_overlay_title{
+	
+	font-weight: bold;
+}
+
+.point1__description{
+	
+	margin-top: 0.5em;
+}
+
+.point2{
+	position:relative;
+	width:600px;
+	height: 200px;
+	margin-left:700px;
+	margin-right: 0px;
+}
+.point2__img{
+	display:block;
+	width: 100%;
+	height:100%;
+}
+
+.point2__overlay{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity:0;
+	transition: opacity 0.25s;
+}
+.point2__overlay > *{
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+.point2__overlay:hover{
+	
+	opacity:1;
+}
+.point2__overlay:hover > *{
+	transform: translateY(0);
+}
+
+.point2_overlay_title{
+	
+	font-weight: bold;
+}
+
+.point2__description{
+	
+	margin-top: 0.5em;
+}
+
+.point3{
+	position:relative;
+	width:600px;
+	height: 200px;
+	margin-left:100px;
+	margin-right: 600px;
+}
+.point3__img{
+	display:block;
+	width: 100%;
+	height:100%;
+}
+
+.point3__overlay{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity:0;
+	transition: opacity 0.25s;
+}
+.point3__overlay > *{
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+.point3__overlay:hover{
+	
+	opacity:1;
+}
+.point3__overlay:hover > *{
+	transform: translateY(0);
+}
+
+.point3_overlay_title{
+	
+	font-weight: bold;
+}
+
+.point3__description{
+	
+	margin-top: 0.5em;
+}
+
+.point4{
+	position:relative;
+	width:600px;
+	height: 200px;
+	margin-left:700px;
+	margin-right: 0px;
+}
+.point4__img{
+	display:block;
+	width: 100%;
+	height:100%;
+}
+
+.point4__overlay{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity:0;
+	transition: opacity 0.25s;
+}
+.point4__overlay > *{
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+.point4__overlay:hover{
+	
+	opacity:1;
+}
+.point4__overlay:hover > *{
+	transform: translateY(0);
+}
+
+.point4_overlay_title{
+	
+	font-weight: bold;
+}
+
+.point4__description{
+	
+	margin-top: 0.5em;
+}
+
+.point5{
+	position:relative;
+	width:600px;
+	height: 200px;
+	margin-left:100px;
+	margin-right: 600px;
+}
+.point5__img{
+	display:block;
+	width: 100%;
+	height:100%;
+}
+
+.point5__overlay{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity:0;
+	transition: opacity 0.25s;
+}
+.point5__overlay > *{
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+.point5__overlay:hover{
+	
+	opacity:1;
+}
+.point5__overlay:hover > *{
+	transform: translateY(0);
+}
+
+.point5_overlay_title{
+	
+	font-weight: bold;
+}
+
+.point5__description{
+	
+	margin-top: 0.5em;
+}
